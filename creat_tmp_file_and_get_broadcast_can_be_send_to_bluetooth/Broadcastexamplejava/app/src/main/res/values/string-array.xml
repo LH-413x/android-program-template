@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="broadcast_names">
+        <item>android.bluetooth.IBluetooth</item>
+        <item>android.btopp.intent.action.OPEN_RECEIVED_FILES</item>
+        <item>android.btopp.intent.action.WHITELIST_DEVICE</item>
+        <item>android.btopp.intent.action.STOP_HANDOVER_TRANSFER</item>
+        <item>android.nfc.handover.intent.action.HANDOVER_SEND</item>
+        <item>android.nfc.handover.intent.action.HANDOVER_SEND_MULTIPLE</item>
+        <item>android.intent.action.SEND</item>
+        <item>android.intent.action.SEND_MULTIPLE</item>
+        <item>android.btopp.intent.action.OPEN</item>
+        <item>com.android.bluetooth.action.TransferHistory</item>
+        <item>android.bluetooth.IBluetoothPbap</item>
+        <item>android.bluetooth.IBluetoothMap</item>
+        <item>android.btmap.intent.action.SHOW_MAPS_SETTINGS</item>
+        <item>com.android.bluetooth.map.USER_CONFIRM_TIMEOUT</item>
+        <item>android.bluetooth.IBluetoothMapClient</item>
+        <item>android.bluetooth.IBluetoothSap</item>
+        <item>android.bluetooth.IBluetoothGatt</item>
+        <item>android.bluetooth.IBluetoothHeadset</item>
+        <item>android.bluetooth.IBluetoothA2dp</item>
+        <item>android.bluetooth.IBluetoothA2dpSink</item>
+        <item>android.media.browse.MediaBrowserService</item>
+        <item>android.bluetooth.IBluetoothAvrcp</item>
+        <item>android.bluetooth.IBluetoothAvrcpController</item>
+        <item>android.bluetooth.IBluetoothHidHost</item>
+        <item>android.bluetooth.IBluetoothHidDevice</item>
+        <item>android.bluetooth.IBluetoothHealth</item>
+        <item>android.bluetooth.IBluetoothPan</item>
+        <item>android.bluetooth.IBluetoothHeadsetClient</item>
+        <item>android.telecom.ConnectionService</item>
+        <item>android.bluetooth.IBluetoothPbapClient</item>
+        <item>android.bluetooth.IBluetoothHearingAid</item>
+        <item>android.accounts.AccountAuthenticator</item>
+    </string-array>
+
+</resources>
