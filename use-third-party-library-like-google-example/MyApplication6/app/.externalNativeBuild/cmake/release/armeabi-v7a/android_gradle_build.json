@@ -1,0 +1,49 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/alex/AndroidStudioProjects/MyApplication6/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/alex/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/alex/AndroidStudioProjects/MyApplication6/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"libcutils-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libcutils",
+			"buildType" : "release",
+			"output" : "/home/alex/AndroidStudioProjects/MyApplication6/app/src/main/cpp/cutils_lib/arm64-v8a/libcutils.a",
+			"toolchain" : "1958009949224442459"
+		},
+		"native-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/alex/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/alex/AndroidStudioProjects/MyApplication6/app/.externalNativeBuild/cmake/release/armeabi-v7a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi27 --gcc-toolchain=/home/alex/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I/home/alex/AndroidStudioProjects/MyApplication6/app/src/main/cpp/cutils -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/alex/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/MyApplication6/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/MyApplication6/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/home/alex/AndroidStudioProjects/MyApplication6/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "1958009949224442459"
+		}
+	},
+	"toolchains" : 
+	{
+		"1958009949224442459" : 
+		{
+			"cCompilerExecutable" : "/home/alex/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/alex/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

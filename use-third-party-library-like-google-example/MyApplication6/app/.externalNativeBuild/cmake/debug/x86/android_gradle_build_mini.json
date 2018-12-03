@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/home/alex/AndroidStudioProjects/MyApplication6/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/alex/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/alex/AndroidStudioProjects/MyApplication6/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "libcutils-Debug-x86": {
+      "artifactName": "libcutils",
+      "abi": "x86",
+      "output": "/home/alex/AndroidStudioProjects/MyApplication6/app/src/main/cpp/cutils_lib/arm64-v8a/libcutils.a"
+    },
+    "native-lib-Debug-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "/home/alex/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/alex/AndroidStudioProjects/MyApplication6/app/.externalNativeBuild/cmake/debug/x86 --target native-lib",
+      "abi": "x86",
+      "output": "/home/alex/AndroidStudioProjects/MyApplication6/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so"
+    }
+  }
+}
